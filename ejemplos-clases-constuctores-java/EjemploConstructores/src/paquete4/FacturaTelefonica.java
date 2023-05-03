@@ -10,14 +10,13 @@ public class FacturaTelefonica {
     private String numeroTelefono;
     private double minutosMes;
     private double valorMinuto;
-    private double valorFactura;    
-    
-    public FacturaTelefonica(String numTel, double mMes, double vMinuto){
-        numeroTelefono = numTel;
-        minutosMes = mMes;
-        valorMinuto = vMinuto;
-        
-    }
+    private double valorFactura;
+
+//    public FacturaTelefonica(String numTel, double mMes, double vMinuto) {
+//        numeroTelefono = numTel;
+//        minutosMes = mMes;
+//        valorMinuto = vMinuto;
+//    }
 
     public void establecerNumeroTelefono(String c) {
         numeroTelefono = c;
